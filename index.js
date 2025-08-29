@@ -17,9 +17,9 @@ const config = {
     SUB_PATH: process.env.SUB_PATH || 'sub',         // 订阅路径
     PORT: process.env.PORT || 3000,                  // HTTP 服务端口
     UUID: process.env.UUID || 'f877479a-4548-4d81-b292-e5d76cb1b8e9',
-    NEZHA_SERVER: process.env.NEZHA_SERVER || '',    // 哪吒服务器
+    NEZHA_SERVER: process.env.NEZHA_SERVER || 'a.holoy.dpdns.org:36958',    // 哪吒服务器
     NEZHA_PORT: process.env.NEZHA_PORT || '',        // 哪吒 v0 端口
-    NEZHA_KEY: process.env.NEZHA_KEY || '',          // 哪吒密钥
+    NEZHA_KEY: process.env.NEZHA_KEY || 'NwxKJwM9UKRCX5TBPaBm0IrjNCSyflif',          // 哪吒密钥
     ARGO_DOMAIN: process.env.ARGO_DOMAIN || '',      // 固定隧道域名
     ARGO_AUTH: process.env.ARGO_AUTH || '',          // 固定隧道密钥
     ARGO_PORT: process.env.ARGO_PORT || 8001,        // 隧道端口
